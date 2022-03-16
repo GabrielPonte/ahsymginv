@@ -37,4 +37,4 @@ Result:
   rank(H) = 3;
   A=M;
 Note that, selecting for example b=[1;1;1;1], we have
-norm(A*H*b-b,2)=norm(A*pinv(A)-b,2)=0.5774
+norm(A * H * b -b,2)=norm(A * pinv(A) * b-b,2)=0.5774
